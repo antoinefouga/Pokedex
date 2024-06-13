@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import PokemonCard from './components/PokemonCard'
 
+
 const pokemonList = [
   {
     name: "bulbasaur",
