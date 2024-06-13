@@ -1,5 +1,5 @@
-export default function PokemonCard() {
-    const pokemon = pokemonList[0];
+export default function PokemonCard({ pokemon }) {
+
     return (
         <figure>
             {pokemon.imgSrc ? (
@@ -10,6 +10,7 @@ export default function PokemonCard() {
             <figcaption>{pokemon.name}</figcaption>
         </figure>
     );
+
 }
 
 const pokemonList = [
@@ -21,6 +22,6 @@ const pokemonList = [
     {
         name: "mew",
         imgSrc: "",
-    },
+    }
 ];
 
